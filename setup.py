@@ -5,5 +5,5 @@ setup(
     version='1.0.1',
     author='Zhang Danil',
     packages=find_namespace_packages(),
-    entry_points={'console_scripts':['clean=clean_folder.main:start']}
+    entry_points={'console_scripts':['clean=clean_folder.clean_file:start']}
 )
